@@ -1,0 +1,140 @@
+/* Montserrat and Fraunces font family */
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    /* Primary colors */
+    --Dark-cyan: hsl(158, 36%, 37%);
+    --Cream: hsl(30, 38%, 92%);
+
+    /* Neutral colors */
+    --Very-dark-blue: hsl(212, 21%, 14%);
+    --Dark-grayish-blue: hsl(228, 12%, 48%);
+    --White: hsl(0, 0%, 100%);
+}
+
+body{
+    background-color: var(--Cream);
+}
+
+.card{
+    width: 1200px;
+    border-radius: 20px;
+    display: flex;
+
+    overflow: hidden;
+    border-radius: 20px;
+
+    margin: 4% 25%;
+
+}
+
+.text{
+    background-color: var(--White);
+    padding: 50px;
+}
+
+.header{
+    font-family: Montserrat;
+    letter-spacing: 10px;
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-weight: 500;
+    color: var(--Dark-grayish-blue);
+}
+
+.title{
+    font-family: Fraunces;
+    font-weight: 700;
+    font-size: 75px;
+    margin-bottom: 30px;
+    padding: 10px 0;
+    color: var(--Very-dark-blue);
+}
+
+.description{
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: 30px;
+    margin-bottom: 30px;
+    padding: 10px 0;
+    color: var(--Dark-grayish-blue);
+}
+
+.prices{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 30px;
+}
+
+.new-price{
+    font-family: Fraunces;
+    font-size: 70px;
+    font-weight: 700;
+    color: var(--Dark-cyan);
+    margin-right: 20px;
+}
+
+.old-price{
+    font-family: Montserrat;
+    font-weight: 500;
+    text-decoration: line-through;
+    font-size: 25px; 
+    margin-left: 30px;  
+    color: var(--Dark-grayish-blue);
+    
+    display: flex;
+    align-items: center;
+}
+
+.cart-button{
+    width: 100%;
+    border-radius: 10px;
+    border: none;
+    font-size: 25px;
+    background-color: var(--Dark-cyan);
+
+    margin-bottom: 30px;
+    padding: 20px 30px;
+
+}
+
+a{
+    color: var(--White);
+    text-decoration: none; 
+    font-weight: 700;
+    font-family: Montserrat;
+}
+
+.cart-button:hover{
+    background-color: hsl(158, 36%, 15%);
+    cursor: pointer;
+}
+
+
+.cart-image{
+    margin-right: 15px;
+    width: 25px;
+    height: 25px;
+}
+
+.attribution { 
+    font-size: 13px;
+    text-align: center; 
+    font-family: Montserrat;
+    
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+    text-decoration: none;
+}
+
+.attribution a:hover{
+    color: var(--Very-dark-blue);
+}
