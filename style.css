@@ -20,6 +20,12 @@
 
 body{
     background-color: var(--Cream);
+    background-color: var(--Cream);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .card{
@@ -29,9 +35,6 @@ body{
 
     overflow: hidden;
     border-radius: 20px;
-
-    margin: 4% 25%;
-
 }
 
 .text{
