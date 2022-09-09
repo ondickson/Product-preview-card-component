@@ -20,7 +20,6 @@
 
 body{
     background-color: var(--Cream);
-    background-color: var(--Cream);
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -30,11 +29,12 @@ body{
 
 .card{
     width: 1200px;
+    max-width: 100%;
     border-radius: 20px;
     display: flex;
 
     overflow: hidden;
-    border-radius: 20px;
+    box-shadow: 0px 0px 35px -9px rgba(84,84,84,0.42);
 }
 
 .text{
@@ -104,6 +104,7 @@ body{
 
     margin-bottom: 30px;
     padding: 20px 30px;
+    color: white;
 
 }
 
@@ -117,6 +118,7 @@ a{
 .cart-button:hover{
     background-color: hsl(158, 36%, 15%);
     cursor: pointer;
+    transition: ease-in 0.4s;
 }
 
 
@@ -140,4 +142,5 @@ a{
 
 .attribution a:hover{
     color: var(--Very-dark-blue);
+    transition: ease-in 0.4s;
 }
